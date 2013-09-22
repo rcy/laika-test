@@ -1,0 +1,13 @@
+<template name="posts">
+  <ul>
+    {{#each posts}}
+    {{> post}}
+    {{/each}}
+  </ul>
+</template>
+
+<template name="post">
+  <li>
+    {{name}} / {{body}}
+  </li>
+</template>
